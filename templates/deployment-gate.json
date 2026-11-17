@@ -1,0 +1,138 @@
+{
+  "agent": "<name> <version>",
+  "environment": "<production|staging>",
+  "reviewers": [
+    "<name>"
+  ],
+  "model": "<model> <version>",
+  "prompt_sha256": "<hash>",
+  "checks": {
+    "ID-1": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "ID-2": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "CAP-1": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "CAP-2": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "CAP-3": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "DATA-1": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "DATA-2": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "INJ-1": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "INJ-2": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "OBS-1": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "OBS-2": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "SC-1": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "SC-2": {
+      "pri": "P0",
+      "status": "pending",
+      "evidence": ""
+    },
+    "ID-3": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "ID-4": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "CAP-4": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "CAP-5": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "DATA-3": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "DATA-4": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "INJ-3": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "INJ-4": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "OBS-3": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "OBS-4": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "SC-3": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    },
+    "SC-4": {
+      "pri": "P1",
+      "status": "pending",
+      "evidence": ""
+    }
+  },
+  "waivers": [],
+  "_note": "Fill status with pass|fail|n/a and evidence with an artifact path and sha256. Default is deny."
+}
